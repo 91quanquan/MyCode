@@ -1,0 +1,16 @@
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\PrintTemplate.baml
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\MainWindow.g.cs
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\App.g.cs
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\WpfPrint_MarkupCompile.cache
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\WpfPrint_MarkupCompile.lref
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\bin\Debug\WpfPrint.exe.config
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\bin\Debug\WpfPrint.exe
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\bin\Debug\WpfPrint.pdb
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\MainWindow.baml
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\WpfPrint.g.resources
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\WpfPrint.Properties.Resources.resources
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\WpfPrint.csproj.GenerateResource.cache
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\WpfPrint.csproj.CoreCompileInputs.cache
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\WpfPrint.exe
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\WpfPrint.pdb
+C:\Users\cj\Desktop\WpfXPSViewer\WpfPrint\obj\Debug\WpfPrint.csprojAssemblyReference.cache
