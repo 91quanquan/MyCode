@@ -1,0 +1,42 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="14" FontFamily="宋体"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+              TextOptions.TextFormattingMode="Display">
+    <FlowDocument.Resources>
+        <Style TargetType="Table" x:Key="TableStyle">
+            <Setter Property="CellSpacing" Value="0"></Setter>
+            <Setter Property="BorderThickness" Value="1"></Setter>
+            <Setter Property="BorderBrush" Value="Blue"></Setter>
+        </Style>
+        <Style TargetType="TableCell" x:Key="CellStyle">
+            <Setter Property="BorderThickness" Value="0.5"></Setter>
+            <Setter Property="BorderBrush" Value="Blue"></Setter>
+            <Setter Property="Padding" Value="3"></Setter>
+            <Setter Property="TextAlignment" Value="Center"></Setter>
+        </Style>
+    </FlowDocument.Resources>
+    <Paragraph>
+        <Run FontSize="20" FontWeight="Bold">wpf打印测试模板</Run>
+        <Ellipse Width="50" Height="50" Fill="Green" HorizontalAlignment="Right"/>
+    </Paragraph>
+    <Table FontSize="16" Style="{StaticResource TableStyle}">
+        <Table.Columns>
+            <TableColumn Width="60"/>
+            <TableColumn Width="120"/>
+            <TableColumn Width="240"/>
+        </Table.Columns>
+        <TableRowGroup Name="rowsDetails">
+            <TableRow FontWeight="Bold">
+                <TableCell Style="{StaticResource CellStyle}">
+                    <Paragraph>ID</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource CellStyle}">
+                    <Paragraph>名称</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource CellStyle}">
+                    <Paragraph>描述</Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+    </Table>
+</FlowDocument>
