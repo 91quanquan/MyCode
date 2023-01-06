@@ -14,6 +14,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Xps;
 using System.Windows.Xps.Packaging;
+using System.IO;
+using System.IO.Packaging;
 
 namespace WpfPrint
 {
@@ -92,6 +94,15 @@ namespace WpfPrint
             xpsWriter.Write(((IDocumentPaginatorSource)doc).DocumentPaginator);
             docViewer.Document = xps.GetFixedDocumentSequence();
             xps.Close();
+        }
+        void FlowToMemoryXPS()
+        {
+            MemoryStream ms = new MemoryStream();//准备在内存中存储内容
+            Package package = Package.Open(ms, FileMode.Create, FileAccess.ReadWrite);
+            Uri DocumentUri = new Uri("pack://InMemoryDocument.xps");
+            PackageStore.RemovePackage(DocumentUri);
+            PackageStore.AddPackage(DocumentUri, package);
+            XpsDocument xpsDocument = new XpsDocument(package, CompressionOption.Fast, DocumentUri.AbsoluteUri);
         }
         /// <summary>
         /// 根据查询数据动态创建流文本
