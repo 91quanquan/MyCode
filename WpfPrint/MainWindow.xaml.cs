@@ -19,6 +19,33 @@ using System.IO.Packaging;
 
 namespace WpfPrint
 {
+    #region FixedDocumentSequence结构相关
+    /*
+     * XpsDocument result = new XpsDocument(xps, FileAccess.Read, CompressionOption.Maximum);
+                FixedDocumentSequence seq = result.GetFixedDocumentSequence();
+
+                foreach (DocumentReference docRef in seq.References)
+                {
+                    FixedDocument fixDoc = docRef.GetDocument(false);
+                    foreach (PageContent pageContent in fixDoc.Pages)
+                    {
+
+                        FixedPage fixPage = pageContent.GetPageRoot(false);
+
+                        Canvas canvas = new Canvas(); //在页面上画一个大的图层
+
+                        canvas.Width = 300;
+
+                        canvas.Height = 100;
+
+                        canvas.Background = Brushes.Red;
+
+                        fixPage.Children.Add(canvas);
+                    }
+                }
+     */
+    #endregion
+    
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
